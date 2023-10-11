@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyRecords">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvVehicleInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtVehicleInfo"
+                android:layout_width="match_parent"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="@string/txtVehicleInfo"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <View
+                android:id="@+id/dvdVehicleInfo"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintTop_toBottomOf="@+id/txtVehicleInfo"/>
+
+            <TextView
+                android:id="@+id/txtlblVehicleNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtlblVehicleNumber"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dvdVehicleInfo"
+                app:layout_constraintHorizontal_bias="0"/>
+
+            <TextView
+                android:id="@+id/txtlblVehicleModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtlblVehicleModel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dvdVehicleInfo"/>
+
+            <TextView
+                android:id="@+id/txtVehicleNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="BDY-6946"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblVehicleNumber" />
+
+            <TextView
+                android:id="@+id/txtVehicleModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="Demak DTM 150"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblVehicleModel" />
+
+            <TextView
+                android:id="@+id/txtlblChassisNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtlblChassisNumber"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtVehicleNumber"
+                app:layout_constraintHorizontal_bias="0"/>
+
+            <TextView
+                android:id="@+id/txtlblEngineNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtlblEngineNumber"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtVehicleModel" />
+
+            <TextView
+                android:id="@+id/txtChassisNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="D-123456987-150"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblChassisNumber" />
+
+            <TextView
+                android:id="@+id/txtEngineNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="DE-74125896-150"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblEngineNumber" />
+
+            <TextView
+                android:id="@+id/txtlblFuelType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtlblFuelType"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtChassisNumber"
+                app:layout_constraintHorizontal_bias="0"/>
+
+            <TextView
+                android:id="@+id/txtlblVehicleType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/txtlblVehicleType"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtEngineNumber" />
+
+            <TextView
+                android:id="@+id/txtFuelType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="Petrol"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblFuelType" />
+
+            <TextView
+                android:id="@+id/txtVehicleType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="Motor Cycle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblVehicleType" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvEssentialInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvVehicleInfo"
+        app:layout_constraintVertical_bias="0.02">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txtEssentialInfo"
+                android:layout_width="match_parent"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="@string/txtEssentialInfo"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <View
+                android:id="@+id/dvdEssentialInfo"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintTop_toBottomOf="@+id/txtEssentialInfo"/>
+
+            <TextView
+                android:id="@+id/txtLicenseInfo"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txtlblVehicleLicense"
+                app:layout_constraintTop_toBottomOf="@+id/dvdEssentialInfo"/>
+
+            <TextView
+                android:id="@+id/txtlblLicenseRenew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="12sp"
+                android:text="@string/txtlblRenewedOn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtLicenseInfo"
+                app:layout_constraintHorizontal_bias="0"/>
+
+            <TextView
+                android:id="@+id/txtlblLicenseExpire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="6dp"
+                android:textSize="12sp"
+                android:text="@string/txtlblValidUntil"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtLicenseInfo" />
+
+            <TextView
+                android:id="@+id/txtLicenseRenew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="01-04-2022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblLicenseRenew" />
+
+            <TextView
+                android:id="@+id/txtLicenseExpire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:textStyle="bold"
+                android:text="01-04-2023"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblLicenseExpire" />
+
+            <TextView
+                android:id="@+id/txtInsuranceInfo"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txtlblVehicleInsurance"
+                app:layout_constraintTop_toBottomOf="@+id/txtLicenseRenew"/>
+
+            <TextView
+                android:id="@+id/txtlblInsuranceRenew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="12sp"
+                android:text="@string/txtlblRenewedOn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtInsuranceInfo"
+                app:layout_constraintHorizontal_bias="0"/>
+
+            <TextView
+                android:id="@+id/txtlblInsuranceExpire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="6dp"
+                android:textSize="12sp"
+                android:text="@string/txtlblValidUntil"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtInsuranceInfo" />
+
+            <TextView
+                android:id="@+id/txtInsuranceRenew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="01-04-2022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblInsuranceRenew" />
+
+            <TextView
+                android:id="@+id/txtInsuranceExpire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:textStyle="bold"
+                android:text="01-04-2023"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblInsuranceExpire" />
+
+            <TextView
+                android:id="@+id/txtServiceInfo"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="16dp"
+                android:layout_height="wrap_content"
+                android:text="@string/txtlblVehicleService"
+                app:layout_constraintTop_toBottomOf="@+id/txtInsuranceRenew"/>
+
+            <TextView
+                android:id="@+id/txtlblLastService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="12sp"
+                android:text="@string/txtlblServicedOn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtServiceInfo"
+                app:layout_constraintHorizontal_bias="0"/>
+
+            <TextView
+                android:id="@+id/txtlblNextService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:layout_marginTop="6dp"
+                android:textSize="12sp"
+                android:text="@string/txtlblNxtService"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtServiceInfo" />
+
+            <TextView
+                android:id="@+id/txtLastService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="01-04-2022"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblLastService" />
+
+            <TextView
+                android:id="@+id/txtNextService"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="164dp"
+                android:textStyle="bold"
+                android:text="01-04-2023"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtlblNextService" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnAddLicense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/btnAddLicense"
+        android:backgroundTint="@color/mainButton"
+        android:textColor="@color/mainButtonFont"
+        app:layout_constraintTop_toBottomOf="@+id/cvEssentialInfo" />
+    <Button
+        android:id="@+id/btnAddInsurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/btnAddInsurance"
+        android:backgroundTint="@color/mainButton"
+        android:textColor="@color/mainButtonFont"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddLicense" />
+    <Button
+        android:id="@+id/btnAddService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/btnAddService"
+        android:backgroundTint="@color/mainButton"
+        android:textColor="@color/mainButtonFont"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddInsurance" />
+<!--    <Button-->
+<!--        android:id="@+id/btnShowQR"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="3dp"-->
+<!--        android:layout_marginHorizontal="10dp"-->
+<!--        android:text="@string/btnShowQR"-->
+<!--        android:backgroundTint="@color/mainButton"-->
+<!--        android:textColor="@color/mainButtonFont"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnAddService" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

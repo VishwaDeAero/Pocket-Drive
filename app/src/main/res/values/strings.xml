@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Pocket Drive</string>
+    <string name="select_vehicle">Select Vehicle</string>
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="addVehicleFormTitle">Add New Vehicle</string>
+    <string name="btnShowMyRecords">My Records</string>
+    <string name="btnShowGuideBook">Guide Book</string>
+
+    <string name="txtVehicleInfo">Vehicle Information</string>
+    <string name="txtlblVehicleNumber">Vehicle Number:</string>
+    <string name="txtlblVehicleModel">Vehicle Model:</string>
+    <string name="txtlblChassisNumber">Chassis Number:</string>
+    <string name="txtlblEngineNumber">Engine Number:</string>
+    <string name="txtlblFuelType">Fuel Type:</string>
+    <string name="txtlblVehicleType">Vehicle Type:</string>
+
+    <string name="txtEssentialInfo">Essential Information</string>
+    <string name="txtlblVehicleLicense">Vehicle License:</string>
+    <string name="txtlblVehicleInsurance">Vehicle Insurance:</string>
+    <string name="txtlblVehicleService">Vehicle Services:</string>
+    <string name="txtlblRenewedOn">Renewed On</string>
+    <string name="txtlblValidUntil">Valid Until</string>
+    <string name="txtlblServicedOn">Serviced On</string>
+    <string name="txtlblNxtService">Next Service</string>
+
+    <string name="btnAddLicense">Add New License Record</string>
+    <string name="btnAddInsurance">Add New Insurance Record</string>
+    <string name="btnAddService">Add New Service Record</string>
+    <string name="btnShowQR">Show Fuel Pass QR</string>
+
+
+    <string-array name="fueltypes_array">
+        <item>Petrol</item>
+        <item>Diesel</item>
+        <item>Electric</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="title_activity_motor_cycle_guide">MotorCycleGuide</string>
+    <string name="how_to_gear_up_title">Gear Up</string>
+    <string name="how_to_choose_motorcycle_title">Choose Your Motorcycle</string>
+    <string name="how_to_brake_title">Learn to Brake</string>
+    <string name="how_to_clutch_throttle_title">Clutch and Throttle</string>
+    <string name="how_to_turning_title">Turning</string>
+    <string name="how_to_practice_title">Practice</string>
+
+    <string name="how_to_gear_up">First things first: motorcycling comes with a certain amount of risk. It’s up to you to minimize that risk as much as possible. To do that, you’ll need proper motorcycle gear to stay protected in case of a crash.
+Even if it’s your very first lesson, gear up. Wear a helmet, gloves, sturdy boots that cover your ankles, and motorcycle pants and jacket. If you’re not sure what type of riding you’ll be doing the most once you get your license – on road, off-road, adventure, street, enduro – stick with some basics. Kevlar or Dyneema – reinforced motorcycle jeans and jackets, abrasion-resistant textiles, or armored motorcycle gear will work for starters.</string>
+    <string name="how_to_choose_motorcycle">Which bike should you aim for if you’re just learning to ride? Make and model doesn’t matter much at this point. What you should be paying attention to is the weight and power ratio. As a beginner learning how to ride a motorcycle for the first time, you want something that is light and easy to handle. As you progress, you can then move up to bigger, heavier, more powerful motorcycles. For now, just pick something low, light, and in the range of 250-650 cc.
+There is no such thing as a motorcycle for beginners – any bike can be your first bike. However, if you can, try simply sitting on a motorcycle that you like, see how it feels, and compare it with a few other machines. When you swing a leg over that saddle, see if you can comfortably put both feet down. Does the bike feel balanced? Can you easily get on, get off, and put it on a side stand? Do you like the position you’re sitting in?
+Typically, street, dirt, and adventure bikes will have the most comfortable, upright sitting position. Sports bikes will require you to lean forward.
+In addition to sitting on a motorcycle you like to see if you feel comfortable, also try moving it back and forth. Put it on the stand and the center stand, and wheel it around a little. You should be able to easily handle the bike both in and off the saddle.
+This way, the basics of riding a motorcycle will come much more naturally – and faster. Remember, it’s not about muscle, it’s about balance.  Learning the basics will be much easier on a lighter motorcycle. When you’re a more skilled and confident rider, you can always start looking for more powerful and larger machines.</string>
+    <string name="how_to_brake">Now that you’re sitting aboard your motorcycle, it’s time to get it moving. But before you can move, you need to know how to brake. The pedal on your right side is the rear brake, and the lever on your right handlebar is your front brake. To slow down or stop altogether, use both brakes evenly and always make sure you’re stepping on the rear brake and pulling in the front brake lever gently and gradually: never grab or stomp on your brakes, because the wheels may lock up sending you off balance.
+Gently tap the rear brake pedal and pull in the front brake lever slowly to master braking in a controlled, smooth movement rather than jerking the bike to a halt. Practise your braking while the bike is standing still: roll forward a little, then tap the rear brake to get a feel for it. Repeat this with your front brake and try to find that sweet spot where the brakes engage but to not grab the wheel discs too suddenly.</string>
+    <string name="how_to_clutch_throttle">Now that you feel confident about braking, it’s time to start your bike and learn the controls. Shifting gears is what terrifies most new riders the most, but the reality is, learning how to shift is much easier than you think. Motorcycles usually have five gears; the first gear is down, then you shift up for neutral, second, third, fourth, and fifth.
+To engage the gears, you’ll need to pull the clutch lever in. To start moving, pull the clutch lever in, engage the first gear, then gently roll the throttle releasing the clutch at the same time (just like with a car!). Once the bike starts moving, gently let the clutch out while adding a little bit of throttle. Once you reach higher RPM’s, pull the clutch lever in fully, lay off the throttle, and engage second gear. To slow down, shift down until you’re in first gear, then pull in neutral once you’re stopped. Rinse and repeat until it becomes second nature!</string>
+    <string name="how_to_turning">When you’re learning how to ride a motorcycle, mastering the controls is the biggest lesson. Once you get a feel for it, however, you can start learning the rest of the basics, and one of the most important things to figure out is turning. Riding a bike in a straight line is one thing, but what about corners, U-turns, and pirouettes in a parking lot?
+To keep the bike steady and stable in corners, do not rely on turning your handlebars only. As you round a corner, the bike will lean into it a little, and you need to lean with it. Don’t fight your bike, but rather go with the movement. Remember to keep your throttle steady and always look through to where you’re going: if you keep staring at your front tire, chances are, you’ll stall or crash. Looking through the corner helps you stay balanced and steer the bike in the direction you want to go.</string>
+    <string name="how_to_practice">Now that you’ve completed an MSF course and gotten your license, it’s time to hit the road. As a new rider, you need to get as much practice as you can, but take it slowly: first, ride quiet, two-lane roads and practice navigating traffic safely before you hit highways and interstates. The more you ride, the more you will get to know your bike, controls will become muscle memory, and you will feel more and more confident on all kinds of roads and traffic conditions. Remember to build slowly, however: getting yourself into stressful situations in busy traffic or high-speed freeways can scare you off motorcycling, so take it slow, hone your skills, and enjoy the ride as much as you can.</string>
+
+    <string name="title_activity_car_guide">CarGuide</string>
+    <string name="how_to_start_manual_title">How to start a manual transmission car</string>
+    <string name="how_to_start_automatic_title">How to start an automatic car</string>
+    <string name="how_to_move_manual_title">How to move off in a manual car</string>
+    <string name="how_to_brake_manual_car_title">How to brake in a manual car</string>
+    <string name="how_to_brake_automatic_car_title">How to brake in a automatic car</string>
+
+    <string name="how_to_start_manual">1.<b>Place your key in the ignition</b> –
+    Your ignition will be located to the right of your steering wheel, just behind it. In some instances, this will just be a button, known as ‘push-button ignition’.\n2. <b>Turn the key or press your push-button ignition</b> –
+    Turn it all the way to start the engine.\n3. <b>Put the clutch to the floor</b> –
+    Use your left foot to push the clutch pedal all the way down.\n4. <b>Put your car into first gear</b> –
+    With the clutch down you just need to move the gear stick into first, which is the top left slot.
+    </string>
+    <string name="how_to_start_automatic">1. <b>Place your key in the ignition</b> –
+    Your ignition is located behind your steering wheel to the right. It could also be a button.\n2. <b>Turn your key or press your button</b>\n3. <b>Place your foot on the brake and press down</b> –
+    As there’s no clutch you need to make sure you do this to avoid your car moving before you’re ready, even though your handbrake will still be on at this stage.\n4. <b>Switch to ‘Drive’ or ‘D’</b> –
+    now move your gearstick to ‘D’ which stands for drive.
+    </string>
+    <string name="how_to_move_manual">1. <b>Start the car up asv you did above</b> –
+    So you’re in gear with the clutch depressed.\n2. <b>Stick on your indicator</b> –
+    If you’re parked at the side of the road you need to indicate so passing traffic knows where you are going.\n3. <b>Place your right foot over the accelerator</b>\n4. <b>Check your mirrors and your blind spot</b> –
+    that’s all your mirrors and then any spots they don’t reach.\n5. <b>up on the clutch until you find the bite point</b> –
+    The bite point is where you’ll feel a slight vibration.\n6. <b>Push down very gently on the accelerator to rev your car</b>\n7. <b>Release the handbrake and pull away</b>\n8. <b>As you move off you’ll lift your foot entirely off the clutch</b> –
+    Use the accelerator to speed up./n9. <b>Shift gears into second gear</b> –
+    Dropping the clutch back down and moving the gear stick.\n10. <b>the clutch back up and keep driving</b>\n11. <b>Turn off the indicator if you had to use it.</b></string>
+    <string name="how_to_brake_manual_car"><b>1. Plan where you want to stop\n
+2. Check your mirrors and indicate if appropriate\n
+3. Ease up on the accelerator\n
+4. Press down on the brake gently\n
+5. Press down on the brake more firmly if required\n
+6. Press down on the clutch – if you are at a junction or traffic lights, you can then go through the process of pulling away. If you are parking then go to the next step.\n
+7. Lift your handbrake\n
+8. Turn off your indicator if you had to turn it on\n
+9. Put your car into neutral\n
+10. Turn your engine off</b></string>
+    <string name="how_to_brake_automatic_car"><b>1. Plan where you want to stop\n
+2. Check your mirrors and indicate if appropriate\n
+3. Ease up on the accelerator\n
+4. Press down on the brake pedal gently\n
+5. Press down on the brake more firmly if required\n
+6. Come to a stop\n
+7. Place the gear stick in neutral if you are done with driving.\n
+8. Turn off the indicators if you had to use them\n
+9. Place the handbrake\n
+10. Place your gear stick in ‘park’ while you have the car running\n
+11. Turn off your car</b></string>
+
+    <string name="action_settings">Settings</string>
+</resources>
